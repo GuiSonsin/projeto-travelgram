@@ -3,12 +3,13 @@ header{
     font: var(--text-md);
 }
 
-header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header{ 
+    .container{
+        display: flex; 
+        gap: 344px;
+        align-items: center;
+    }
 }
-
 #profile{
     display: flex;
     gap: 32px;
@@ -32,11 +33,18 @@ header .container{
 }
 
 #info{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 280px;
+
+    & ul{
+        list-style: none;
+        display: flex; 
+        flex-direction: column;
+        gap: 16px; 
+    }
+
+    & img{
+        width: 24px;
+        height: 24px;
+    }
 }
 
 #info li{

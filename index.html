@@ -21,12 +21,12 @@
         <li><a href="#">
             <img src="assets/icons/MagnifyingGlass.svg" alt="ícone de lupa">
         </a></li>
-        <li><a href="#">Explorer</a></li>
-        <li><a href="#">Minhas Viagens</a></li>
+        <li class="only-desktop"><a href="#">Explorer</a></li>
+        <li class="only-desktop"><a href="#">Minhas Viagens</a></li>
         <li><a href="#"></a>
         <img src="assets/Profile pic.png" alt="Imagem de Isabela Torres"></li>
     </ul>
-</nav>
+    </nav>
     <header>
         <div class="container">
             <div id="profile">
@@ -37,7 +37,8 @@
                         Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸</p>
                 </div>
             </div>
-                <ul id="info">
+            <div id="info">
+                <ul>
                     <li>
                         <img src="assets/icons/MapPin.svg" alt="ícone de mapa">
                         <span>São Paulo, Brazil</span>
@@ -50,12 +51,13 @@
                         <img src="assets/icons/Image.svg" alt="ícone de imagem">
                         <span>240 fotos</span>
                     </li>
-                </ul>   
+                </ul> 
+            </div>
         </div>
     </header>
     </div>
 
-    <main class = "container">
+    <main>
         <img src="assets/images/Image 01.png" alt="...">
         <img src="assets/images/Image 02.png" alt="...">
         <img src="assets/images/Image 03.png" alt="...">
@@ -70,16 +72,19 @@
         <img src="assets/images/Image 12.png" alt="...">
     </main>
 
-    <footer class="container">
-        <span>
-            Travelgram &copy; 2024
-        </span>
-        <span>
-            Termos de uso
-        </span>
-        <span>
-            Política de privacodade
-        </span>
+    <footer>
+        <div class="container">
+            <a href="#">
+                Travelgram &copy; 2024 
+            </a>
+               
+            <a href="#">
+                Termos de uso
+            </a> 
+            <a href="#">
+                Política de privacidade
+            </a> 
+        </div>
     </footer>
 </body>
 </html>
